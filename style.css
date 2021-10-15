@@ -67,6 +67,9 @@ i {
 #hide1 {
   display: none;
 }
+#hide3 {
+  display: none;
+}
 input {
   width: 88%;
   border-bottom-right-radius: 13px;
