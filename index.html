@@ -87,11 +87,11 @@
           type="password"
           class="pass"
           placeholder="Password"
-          id="myinput"
+          id="myinput2"
         />
-        <span class="eye2" onclick="myFunction()">
-          <i class="far fa-eye" id="hide1"></i>
-          <i class="far fa-eye-slash" id="hide2"></i>
+        <span class="eye2" onclick="myFunction2()">
+          <i class="far fa-eye" id="hide3"></i>
+          <i class="far fa-eye-slash" id="hide4"></i>
         </span>
       </div>
 
@@ -148,6 +148,21 @@
           x.type = "password";
           y.style.display = "none";
           z.style.display = "block";
+        }
+      }
+      function myFunction2() {
+        const x1 = document.getElementById("myinput2");
+        const y1 = document.getElementById("hide3");
+        const z1 = document.getElementById("hide4");
+
+        if (x1.type === "password") {
+          x1.type = "text";
+          y1.style.display = "block";
+          z1.style.display = "none";
+        } else {
+          x1.type = "password";
+          y1.style.display = "none";
+          z1.style.display = "block";
         }
       }
     </script>
