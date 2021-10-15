@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+body {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(#3e384a, #291d34);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: #fff;
+}
+a {
+  cursor: pointer;
+}
+.login {
+  width: 30%;
+  height: 60vh;
+  padding: 10px 0;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px 4px #c2b5d0;
+  position: relative;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #555;
+}
+.username {
+  width: 70%;
+  height: 2rem;
+  border-top-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  background: #111;
+}
+i {
+  padding: 7px;
+  color: #c2b5d0;
+}
+.abu {
+  padding: 7.7px;
+  color: #c2b5d0;
+}
+.two2 {
+  width: 88.71%;
+  border-bottom-right-radius: 10px;
+}
+.password {
+  width: 70%;
+}
+.pass {
+  width: 75%;
+  border-bottom-right-radius: 0;
+}
+.eye2 {
+  position: absolute;
+}
+#hide1 {
+  display: none;
+}
+input {
+  width: 88%;
+  border-bottom-right-radius: 13px;
+  padding: 4px 10px;
+  border: none;
+  outline: none;
+}
+.two:focus {
+  border: 1px solid rgb(0, 255, 174);
+}
+.form-check {
+  padding: 10px 0;
+  color: #fff;
+  position: relative;
+  right: 60px;
+}
+.submit {
+  text-shadow: 0.5px 0.5px #000000;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  background: #fff;
+}
+.submit:active {
+  transform: scale(0.95);
+}
+p {
+  text-align: center;
+}
+.signup {
+  width: 30%;
+  height: 70vh;
+  position: relative;
+  right: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #555;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px 4px #c2b5d0;
+}
